@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9E1656FC-1DC1-49D9-9A6D-5BB7F86CDB96</string>
+	<key>IDESourceControlProjectName</key>
+	<string>birdWatching</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>05868D94-5808-4187-B2F5-3DBE3B71C29A</key>
+		<string>https://github.com/yogeshdalavi/GitTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>birdWatching/birdWatching.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>05868D94-5808-4187-B2F5-3DBE3B71C29A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yogeshdalavi/GitTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>05868D94-5808-4187-B2F5-3DBE3B71C29A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>05868D94-5808-4187-B2F5-3DBE3B71C29A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GitTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
