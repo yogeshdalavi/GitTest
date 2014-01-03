@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC365EB617717C79003099BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC365EB517717C79003099BF /* UIKit.framework */; };
+		EC365EB817717C79003099BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC365EB717717C79003099BF /* Foundation.framework */; };
+		EC365EBA17717C79003099BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC365EB917717C79003099BF /* CoreGraphics.framework */; };
+		EC365EC017717C79003099BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC365EBE17717C79003099BF /* InfoPlist.strings */; };
+		EC365EC217717C79003099BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC365EC117717C79003099BF /* main.m */; };
+		EC365EC617717C79003099BF /* BirdsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC365EC517717C79003099BF /* BirdsAppDelegate.m */; };
+		EC365EC817717C79003099BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC365EC717717C79003099BF /* Default.png */; };
+		EC365ECA17717C79003099BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC365EC917717C79003099BF /* Default@2x.png */; };
+		EC365ECC17717C79003099BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC365ECB17717C79003099BF /* Default-568h@2x.png */; };
+		EC365ECF17717C79003099BF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC365ECD17717C79003099BF /* MainStoryboard.storyboard */; };
+		EC365ED217717C79003099BF /* BirdsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC365ED117717C79003099BF /* BirdsMasterViewController.m */; };
+		EC365ED517717C79003099BF /* BirdsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC365ED417717C79003099BF /* BirdsDetailViewController.m */; };
+		EC365EDD17718756003099BF /* Birdsighting.m in Sources */ = {isa = PBXBuildFile; fileRef = EC365EDC17718756003099BF /* Birdsighting.m */; };
+		EC365EE017718B36003099BF /* BirdSightingDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC365EDF17718B35003099BF /* BirdSightingDataController.m */; };
+		EC365EE31771BE35003099BF /* AddSightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC365EE21771BE35003099BF /* AddSightingViewController.m */; };
+		EC365EE61771DF27003099BF /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC365EE51771DF27003099BF /* TestController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC365EB217717C79003099BF /* birdWatching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birdWatching.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC365EB517717C79003099BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC365EB717717C79003099BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC365EB917717C79003099BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC365EBD17717C79003099BF /* birdWatching-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "birdWatching-Info.plist"; sourceTree = "<group>"; };
+		EC365EBF17717C79003099BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC365EC117717C79003099BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC365EC317717C79003099BF /* birdWatching-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "birdWatching-Prefix.pch"; sourceTree = "<group>"; };
+		EC365EC417717C79003099BF /* BirdsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdsAppDelegate.h; sourceTree = "<group>"; };
+		EC365EC517717C79003099BF /* BirdsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdsAppDelegate.m; sourceTree = "<group>"; };
+		EC365EC717717C79003099BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EC365EC917717C79003099BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EC365ECB17717C79003099BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EC365ECE17717C79003099BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EC365ED017717C79003099BF /* BirdsMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdsMasterViewController.h; sourceTree = "<group>"; };
+		EC365ED117717C79003099BF /* BirdsMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdsMasterViewController.m; sourceTree = "<group>"; };
+		EC365ED317717C79003099BF /* BirdsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdsDetailViewController.h; sourceTree = "<group>"; };
+		EC365ED417717C79003099BF /* BirdsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdsDetailViewController.m; sourceTree = "<group>"; };
+		EC365EDB17718756003099BF /* Birdsighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Birdsighting.h; sourceTree = "<group>"; };
+		EC365EDC17718756003099BF /* Birdsighting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Birdsighting.m; sourceTree = "<group>"; };
+		EC365EDE17718B35003099BF /* BirdSightingDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdSightingDataController.h; sourceTree = "<group>"; };
+		EC365EDF17718B35003099BF /* BirdSightingDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdSightingDataController.m; sourceTree = "<group>"; };
+		EC365EE11771BE35003099BF /* AddSightingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSightingViewController.h; sourceTree = "<group>"; };
+		EC365EE21771BE35003099BF /* AddSightingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSightingViewController.m; sourceTree = "<group>"; };
+		EC365EE41771DF27003099BF /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		EC365EE51771DF27003099BF /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC365EAF17717C78003099BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC365EB617717C79003099BF /* UIKit.framework in Frameworks */,
+				EC365EB817717C79003099BF /* Foundation.framework in Frameworks */,
+				EC365EBA17717C79003099BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC365EA917717C78003099BF = {
+			isa = PBXGroup;
+			children = (
+				EC365EBB17717C79003099BF /* birdWatching */,
+				EC365EB417717C79003099BF /* Frameworks */,
+				EC365EB317717C79003099BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC365EB317717C79003099BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC365EB217717C79003099BF /* birdWatching.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC365EB417717C79003099BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC365EB517717C79003099BF /* UIKit.framework */,
+				EC365EB717717C79003099BF /* Foundation.framework */,
+				EC365EB917717C79003099BF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC365EBB17717C79003099BF /* birdWatching */ = {
+			isa = PBXGroup;
+			children = (
+				EC365EC417717C79003099BF /* BirdsAppDelegate.h */,
+				EC365EC517717C79003099BF /* BirdsAppDelegate.m */,
+				EC365ECD17717C79003099BF /* MainStoryboard.storyboard */,
+				EC365EE41771DF27003099BF /* TestController.h */,
+				EC365EE51771DF27003099BF /* TestController.m */,
+				EC365EDB17718756003099BF /* Birdsighting.h */,
+				EC365EDC17718756003099BF /* Birdsighting.m */,
+				EC365EDE17718B35003099BF /* BirdSightingDataController.h */,
+				EC365EDF17718B35003099BF /* BirdSightingDataController.m */,
+				EC365ED017717C79003099BF /* BirdsMasterViewController.h */,
+				EC365ED117717C79003099BF /* BirdsMasterViewController.m */,
+				EC365EE11771BE35003099BF /* AddSightingViewController.h */,
+				EC365EE21771BE35003099BF /* AddSightingViewController.m */,
+				EC365ED317717C79003099BF /* BirdsDetailViewController.h */,
+				EC365ED417717C79003099BF /* BirdsDetailViewController.m */,
+				EC365EBC17717C79003099BF /* Supporting Files */,
+			);
+			path = birdWatching;
+			sourceTree = "<group>";
+		};
+		EC365EBC17717C79003099BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC365EBD17717C79003099BF /* birdWatching-Info.plist */,
+				EC365EBE17717C79003099BF /* InfoPlist.strings */,
+				EC365EC117717C79003099BF /* main.m */,
+				EC365EC317717C79003099BF /* birdWatching-Prefix.pch */,
+				EC365EC717717C79003099BF /* Default.png */,
+				EC365EC917717C79003099BF /* Default@2x.png */,
+				EC365ECB17717C79003099BF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC365EB117717C78003099BF /* birdWatching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC365ED817717C79003099BF /* Build configuration list for PBXNativeTarget "birdWatching" */;
+			buildPhases = (
+				EC365EAE17717C78003099BF /* Sources */,
+				EC365EAF17717C78003099BF /* Frameworks */,
+				EC365EB017717C78003099BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = birdWatching;
+			productName = birdWatching;
+			productReference = EC365EB217717C79003099BF /* birdWatching.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC365EAA17717C78003099BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Birds;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Yogesh Dalavi";
+			};
+			buildConfigurationList = EC365EAD17717C78003099BF /* Build configuration list for PBXProject "birdWatching" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC365EA917717C78003099BF;
+			productRefGroup = EC365EB317717C79003099BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC365EB117717C78003099BF /* birdWatching */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC365EB017717C78003099BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC365EC017717C79003099BF /* InfoPlist.strings in Resources */,
+				EC365EC817717C79003099BF /* Default.png in Resources */,
+				EC365ECA17717C79003099BF /* Default@2x.png in Resources */,
+				EC365ECC17717C79003099BF /* Default-568h@2x.png in Resources */,
+				EC365ECF17717C79003099BF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC365EAE17717C78003099BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC365EC217717C79003099BF /* main.m in Sources */,
+				EC365EC617717C79003099BF /* BirdsAppDelegate.m in Sources */,
+				EC365ED217717C79003099BF /* BirdsMasterViewController.m in Sources */,
+				EC365ED517717C79003099BF /* BirdsDetailViewController.m in Sources */,
+				EC365EDD17718756003099BF /* Birdsighting.m in Sources */,
+				EC365EE017718B36003099BF /* BirdSightingDataController.m in Sources */,
+				EC365EE31771BE35003099BF /* AddSightingViewController.m in Sources */,
+				EC365EE61771DF27003099BF /* TestController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC365EBE17717C79003099BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC365EBF17717C79003099BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC365ECD17717C79003099BF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC365ECE17717C79003099BF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC365ED617717C79003099BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC365ED717717C79003099BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC365ED917717C79003099BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "birdWatching/birdWatching-Prefix.pch";
+				INFOPLIST_FILE = "birdWatching/birdWatching-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC365EDA17717C79003099BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "birdWatching/birdWatching-Prefix.pch";
+				INFOPLIST_FILE = "birdWatching/birdWatching-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC365EAD17717C78003099BF /* Build configuration list for PBXProject "birdWatching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC365ED617717C79003099BF /* Debug */,
+				EC365ED717717C79003099BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC365ED817717C79003099BF /* Build configuration list for PBXNativeTarget "birdWatching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC365ED917717C79003099BF /* Debug */,
+				EC365EDA17717C79003099BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC365EAA17717C78003099BF /* Project object */;
+}
